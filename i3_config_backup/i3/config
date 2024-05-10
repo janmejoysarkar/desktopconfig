@@ -231,7 +231,7 @@ bindsym $mod+Shift+minus move scratchpad
 bindsym $mod+minus scratchpad show
 bindsym --release Print exec "import -window root $HOME/Pictures/screenshots/screenshot_$(date +%Y-%m-%d_%H-%M-%S).png && notify-send $(ls -rt $HOME/Pictures/screenshots | tail -1) saved\ in\ Pictures/screenshots" 
 bindsym --release Shift+Print exec "import $HOME/Pictures/screenshots/screenshot_$(date +%Y-%m-%d_%H-%M-%S).png && notify-send $(ls -rt $HOME/Pictures/screenshots| tail -1) saved\ in\ Pictures/screenshots"
-
+bindsym $mod+p sticky toggle
 
 #startup executables
 exec --no-startup-id /$HOME/.config/i3/autostart.sh
