@@ -185,7 +185,7 @@ bindsym $mod+r mode "resize"
 bar {
 	position top
 	mode dock
-	#tray_output primary
+	tray_output primary
 	tray_padding 0
 	font pango:Hack 11
 	status_command i3blocks
