@@ -198,7 +198,7 @@ bar	{
 
 # Window color settings
 # class                 border  backgr. text    indicator
-client.focused          #ffcc66 #ffcc66 #d8dee9 #81a1c1
+client.focused          #ffffff #9a6780  #d8dee9 #6a41e1
 #client.unfocused        #ff6666 #8FBCBB #2e3440 #8FBCBB
 #client.focused_inactive #4c566a #81a1c1 #2e3440 #2e3440
 #client.placeholder      #4c566a #2e3440 #4c566a #2e3440
