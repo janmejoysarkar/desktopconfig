@@ -1,39 +1,33 @@
 [colors]
 draw_bold_text_with_bright_colors = true
 
-# Colors (Blood Moon)
-
-# Default colors
-[colors.primary]
-background = '#10100E'
-foreground = '#C6C6C4'
-
-# Normal colors
-[colors.normal]
-black   = '#10100E'
-red     = '#C40233'
-green   = '#009F6B'
-yellow  = '#FFD700'
-blue    = '#0087BD'
-magenta = '#9A4EAE'
-cyan    = '#20B2AA'
-white   = '#C6C6C4'
-
-# Bright colors
 [colors.bright]
-black   = '#696969'
-red     = '#FF2400'
-green   = '#03C03C'
-yellow  = '#FDFF00'
-blue    = '#2FACEB'
-magenta = '#FF1493'
-cyan    = '#00CCCC'
-white   = '#FFFAFA'
-
+black = "#666666"
+blue = "#81a2be"
+cyan = "#54ced6"
+green = "#9ec400"
+magenta = "#b77ee0"
+red = "#ff3334"
+white = "#afb3ba"
+yellow = "#f0c674"
 
 [colors.cursor]
 cursor = "#ffffff"
 text = "#1d1f21"
+
+[colors.normal]
+black = "#1d1f21"
+blue = "#81a2be"
+cyan = "#70c0ba"
+green = "#4c521a"
+magenta = "#b294bb"
+red = "#cc6666"
+white = "#373b41"
+yellow = "#e6c547"
+
+[colors.primary]
+background = "#1d1f21"
+foreground = "#dcdedc"
 
 [env]
 TERM = "xterm-256color"

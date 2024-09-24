@@ -58,8 +58,3 @@ command=date '+%H:%M:%S'
 interval=1
 
 [separator]
-
-[red_screen_toggle]
-full_text=⦿
-command=$HOME/.config/i3blocks/custom/red_screen_toggle.sh
-

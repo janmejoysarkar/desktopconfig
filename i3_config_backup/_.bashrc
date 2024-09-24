@@ -18,14 +18,17 @@ alias msword="wine '/home/janmejoyarch/.wineprefix/office2007/drive_c/Program Fi
 alias msppt="wine '/home/janmejoyarch/.wineprefix/office2007/drive_c/Program Files (x86)/Microsoft Office/Office12/POWERPNT.EXE'"
 alias msexcel="wine '/home/janmejoyarch/.wineprefix/office2007/drive_c/Program Files (x86)/Microsoft Office/Office12/EXCEL.EXE'"
 alias qlt='python3 /home/janmejoyarch/Dropbox/Janmejoy_SUIT_Dropbox/scripts/quick_look_tile.py'
-alias dropbox='/home/janmejoyarch/scripts_git/dropbox.py'
-
-export PS1="💪😎\[\e[38;5;220m\] \[\e[38;5;229m\]\w \[\033[0m\]❯ "
+alias dropbox='/home/janmejoyarch/dropbox.py'
+alias token='cat ~/Dropbox/Janmejoy_SUIT_Dropbox/scripts/github_token.txt'
+alias r='xdg-open `fzf --tmux=right`'
+alias spyder='/usr/bin/spyder'
+export PS1="💪😎\[\e[38;5;220m\] \[\e[38;5;215m\]\w\[\033[0m\] \n ❯ "
 #export PS1="\[\e[38;5;216m\]\u\[\e[38;5;220m\]@\[\e[38;5;222m\]\h \[\e[38;5;229m\]\w \[\033[0m\]$ "
 export WINEPREFIX='/home/janmejoyarch/.wineprefix/office2007'
 export random='/home/janmejoyarch/Dropbox/Janmejoy_SUIT_Dropbox/random_sync'
 
 TERMINAL='/bin/kgx'
+
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
 __conda_setup="$('/home/janmejoyarch/anaconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
@@ -39,3 +42,5 @@ else
     fi
 fi
 unset __conda_setup
+conda activate work 
+
