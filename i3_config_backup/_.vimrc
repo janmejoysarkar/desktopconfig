@@ -22,6 +22,13 @@ endif
 " Show line num
 set number
 
+" Show highlight for searched word
+set hlsearch
+
+"Show filename at all times
+"set laststatus=2 
+"set statusline=%f
+
 "Syntax
 syntax on
 

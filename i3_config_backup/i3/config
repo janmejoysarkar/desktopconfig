@@ -180,6 +180,27 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
+######################################
+# color settings for bar and windows #
+######################################
+
+# Define colors variables:
+set $darkbluetrans	#08052be6
+set $darkblue		#08052b
+set $lightblue		#5294e2
+set $urgentred		#e53935
+set $white		#ffffff
+set $black		#000000
+set $purple		#e345ff
+set $darkgrey		#0c041f
+set $grey		#b0b5bd
+set $mediumgrey		#8b8b8b
+set $yellowbrown	#e1b700
+set $orange		#c84f00
+set $midnight		#9a6780
+set $deepnight		#660030
+set $sorbetblue		#6a41e1
+
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 bar	{
@@ -190,15 +211,20 @@ bar	{
 	font pango:Hack 11
 	status_command i3blocks
 	colors {
-	      background #242424
+	      background $darkgrey
 	      statusline #d8dee9
 	      separator #8FBCBB
+#                          		border 	        bg		txt		indicator
+		focused_workspace	$midnight  	$midnight	$white		$purple
+		active_workspace	$lightblue      $mediumgrey	$darkgrey	$purple
+		inactive_workspace	$darkgrey       $deepnight	$white		$purple
+		urgent_workspace	$urgentred    	$urgentred	$white		$purple
 		}
 	}
 
 # Window color settings
 # class                 border  backgr. text    indicator
-client.focused          #ffffff #9a6780  #d8dee9 #6a41e1
+client.focused          #ffffff $midnight  #d8dee9 $sorbetblue
 #client.unfocused        #ff6666 #8FBCBB #2e3440 #8FBCBB
 #client.focused_inactive #4c566a #81a1c1 #2e3440 #2e3440
 #client.placeholder      #4c566a #2e3440 #4c566a #2e3440
