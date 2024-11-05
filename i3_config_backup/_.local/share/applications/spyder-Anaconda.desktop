@@ -1,0 +1,7 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Spyder-Anaconda
+Type=Application
+Comment=Spyder on Anaconda
+Path=/home/janmejoyarch/anaconda3/bin
+Exec=/home/janmejoyarch/anaconda3/bin/spyder

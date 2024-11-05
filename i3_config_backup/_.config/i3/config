@@ -215,9 +215,9 @@ bar	{
 	      statusline #d8dee9
 	      separator #8FBCBB
 #                          		border 	        bg		txt		indicator
-		focused_workspace	$midnight  	$midnight	$white		$purple
-		active_workspace	$lightblue      $mediumgrey	$darkgrey	$purple
-		inactive_workspace	$darkgrey       $deepnight	$white		$purple
+		focused_workspace	$midnight  	$deepnight	$white		$purple
+		active_workspace	$midnight     	$darkgrey	$white		$purple
+		inactive_workspace	$darkgrey       $darkgrey	$grey		$purple
 		urgent_workspace	$urgentred    	$urgentred	$white		$purple
 		}
 	}
