@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "coc-jedi": ">=0.36.1",
+    "coc-snippets": ">=3.1.10"
+  }
+}
