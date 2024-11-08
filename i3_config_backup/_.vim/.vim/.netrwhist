@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =4
+let g:netrw_dirhist_4='/home/janmejoyarch/Dropbox/Janmejoy_SUIT_Dropbox/photometry/stellar_photometry_focus/stellar_observation_simulation'
+let g:netrw_dirhist_3='/home/janmejoyarch/Dropbox/Janmejoy_SUIT_Dropbox/flat_field/LED/simulated_led_images_project/src'
+let g:netrw_dirhist_2='/home/janmejoyarch/Dropbox/Janmejoy_SUIT_Dropbox/flat_field/LED/simulated_led_images_project'
+let g:netrw_dirhist_1='/home/janmejoyarch/Dropbox/Janmejoy_SUIT_Dropbox/flat_field/LED'
+let g:netrw_dirhist_0='/home/janmejoyarch/Dropbox/Janmejoy_SUIT_Dropbox/flat_field'
+let g:netrw_dirhist_9='/home/janmejoyarch/Dropbox/Janmejoy_SUIT_Dropbox'
+let g:netrw_dirhist_8='/home/janmejoyarch/Dropbox'
+let g:netrw_dirhist_7='/home/janmejoyarch'
+let g:netrw_dirhist_6='/home/janmejoyarch/Dropbox/Janmejoy_SUIT_Dropbox/distortion/distortion_correction_project/src'
+let g:netrw_dirhist_5='/home/janmejoyarch/Dropbox/Janmejoy_SUIT_Dropbox/distortion/distortion_correction_project'

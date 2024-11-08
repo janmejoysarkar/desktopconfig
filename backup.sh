@@ -7,5 +7,7 @@ rsync -rtv --progress --delete $HOME/.config/{i3,i3blocks,alacritty,dunst} $HOME
 #vim
 rsync -rtv --progress --delete $HOME/.vimrc $HOME/desktop_dotfiles_git/i3_config_backup/_.vimrc
 rsync -rtv --progress --delete $HOME/.config/coc $HOME/desktop_dotfiles_git/i3_config_backup/_.config/coc
+rsync -rtv --progress --delete $HOME/.vim $HOME/desktop_dotfiles_git/i3_config_backup/_.vim
+
 #tmux
 rsync -rtv --progress --delete $HOME/.vimrc $HOME/desktop_dotfiles_git/i3_config_backup/_.tmux.conf
