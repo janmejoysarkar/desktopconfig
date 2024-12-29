@@ -23,7 +23,7 @@ alias qlt='python3 /home/janmejoyarch/Dropbox/Janmejoy_SUIT_Dropbox/scripts/quic
 alias dropbox='/home/janmejoyarch/dropbox.py'
 alias token='cat ~/Dropbox/Janmejoy_SUIT_Dropbox/scripts/github_token.txt'
 alias r='xdg-open `fzf --tmux=right`'
-alias spyder='/usr/bin/spyder'
+alias spyder='$HOME/anaconda3/bin/spyder'
 
 export PS1="\[\033[01;35m\]λ\[\e[00;220m\] \[\e[38;5;223m\]\w\[\033[0m\] ❯ "
 #export PS1="\[\e[38;5;216m\]\u\[\e[38;5;220m\]@\[\e[38;5;222m\]\h \[\e[38;5;229m\]\w \[\033[0m\]$ "
@@ -46,5 +46,5 @@ else
     fi
 fi
 unset __conda_setup
-conda activate work 
+conda activate myenv 
 
