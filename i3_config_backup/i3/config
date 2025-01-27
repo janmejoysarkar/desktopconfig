@@ -121,6 +121,18 @@ set $ws8 "8"
 set $ws9 "9"
 set $ws10 "10"
 
+# Assign monitors to workspaces
+workspace $ws1 output DP-1 DP-2
+workspace $ws2 output DP-1 DP-2
+workspace $ws3 output DP-1 DP-2
+workspace $ws4 output DP-1 DP-2
+workspace $ws5 output DP-1 DP-2
+workspace $ws6 output DP-2 DP-1
+workspace $ws7 output DP-2 DP-1
+workspace $ws8 output DP-2 DP-1
+workspace $ws9 output DP-2 DP-1
+workspace $ws10 output DP-2 DP-1
+
 # switch to workspace
 bindsym $mod+1 workspace number $ws1
 bindsym $mod+2 workspace number $ws2

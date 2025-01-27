@@ -47,4 +47,5 @@ else
 fi
 unset __conda_setup
 conda activate myenv 
+#conda activate spice 
 

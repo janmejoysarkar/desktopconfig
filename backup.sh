@@ -14,4 +14,4 @@ rsync -rtv --progress --delete $HOME/.config/coc $HOME/desktop_dotfiles_git/i3_c
 rsync -rtv --progress --delete $HOME/.vim/ $HOME/desktop_dotfiles_git/i3_config_backup/_.vim/
 
 #tmux
-rsync -rtv --progress --delete $HOME/.vimrc $HOME/desktop_dotfiles_git/i3_config_backup/_.tmux.conf
+rsync -rtv --progress --delete $HOME/.tmux.conf $HOME/desktop_dotfiles_git/i3_config_backup/_.tmux.conf
