@@ -5,6 +5,9 @@
 rsync -rtv --progress --delete $HOME/.bashrc $HOME/desktop_dotfiles_git/i3_config_backup/_.bashrc
 rsync -rtv --progress --delete $HOME/.bash_profile $HOME/desktop_dotfiles_git/i3_config_backup/_.bash_profile
 
+#xinitrc
+rsync -rtv --progress --delete $HOME/.xinitrc $HOME/desktop_dotfiles_git/i3_config_backup/_.xinitrc
+
 #i3, i3blocks, alacritty, dunst
 rsync -rtv --progress --delete $HOME/.config/{i3,i3blocks,alacritty,dunst} $HOME/desktop_dotfiles_git/i3_config_backup/
 

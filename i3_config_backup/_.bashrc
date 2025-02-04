@@ -25,7 +25,7 @@ alias token='cat ~/Dropbox/Janmejoy_SUIT_Dropbox/scripts/github_token.txt'
 alias r='xdg-open `fzf --tmux=right`'
 alias spyder='$HOME/anaconda3/bin/spyder'
 
-export PS1="\[\033[01;35m\]λ\[\e[00;220m\] \[\e[38;5;223m\]\w\[\033[0m\] ❯ "
+export PS1="\[\033[01;35m\]λ\[\e[00;220m\] \[\e[38;5;223m\]\w\[\033[0m\] \n ❯ "
 #export PS1="\[\e[38;5;216m\]\u\[\e[38;5;220m\]@\[\e[38;5;222m\]\h \[\e[38;5;229m\]\w \[\033[0m\]$ "
 export WINEPREFIX='/home/janmejoyarch/.wineprefix/office2007'
 export random='/home/janmejoyarch/Dropbox/Janmejoy_SUIT_Dropbox/random_sync'
